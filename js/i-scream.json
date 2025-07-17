@@ -17,9 +17,21 @@
             "image": "https://umaid-dev.github.io/lab-10/images/peach-mango.svg"
         }, {
             "name": "Strawberry sprinkle",
-            "calories": 260,
+            "calories": 220,
             "type": "Milkshake-type ice cream",
             "ingredients": ["Milk", "sprinkles", "Strawberry icecream"],
             "image": "https://umaid-dev.github.io/lab-10/images/strawberry-sprinkle.svg"
+        },{
+            "name": "Pistacho sprinkle",
+            "calories": 260,
+            "type": "Milkshake-type ice cream",
+            "ingredients": ["Milk", "sprinkles", "Pistacho icecream"],
+            "image": "https://umaid-dev.github.io/lab-10/images/ice-cream-xtra1.svg"
+        }, {
+            "name": "Chocbar sprinkle",
+            "calories": 260,
+            "type": "Milkshake-type ice cream",
+            "ingredients": ["Milk", "sprinkles", "Chocbar icecream"],
+            "image": "https://umaid-dev.github.io/lab-10/images/ice-cream-xtra2.svg"
         }]
     }
