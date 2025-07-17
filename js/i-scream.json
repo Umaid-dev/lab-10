@@ -15,5 +15,11 @@
             "type": "Milkshake-type ice cream",
             "ingredients": ["Peach Syrup", "Mango Chunks", "Vanilla Base"],
             "image": "https://umaid-dev.github.io/lab-10/images/peach-mango.svg"
+        }, {
+            "name": "Strawberry sprinkle",
+            "calories": 260,
+            "type": "Milkshake-type ice cream",
+            "ingredients": ["Milk", "sprinkles", "Strawberry icecream"],
+            "image": "https://umaid-dev.github.io/lab-10/images/strawberry-sprinkle.svg"
         }]
     }
