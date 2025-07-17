@@ -38,9 +38,16 @@ function populateHeader(jsonBody) {
     
     // Grab the company name from the JSON object and use it for the text node
     h1.textContent = jsonBody.companyName
-    // To do : add a paragraph tag such that it says Headoffice : est 2025 
+    //Step 12c:  To do: Add a paragraph tag such that it says "Head Office: North Pole, est. 2025 - Status: Active"
+
+    let paragraph = document.createElement("p")
+
+    paragraph.textContent = `Head Office: ${jsonBody.headOffice}, est. ${jsonBody.established} - Status: ${jsonBody.active }`
+
+
     // Inject the complete H1 element into the DOM, inside the HEADER
     header.appendChild(h1)
+    header.appendChild(paragraph)
 }
 /* STEP 10b: Assemble the showTopFlavors() function */
 function showTopFlavors(jsonBody) {
